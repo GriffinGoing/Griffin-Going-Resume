@@ -27,7 +27,7 @@ library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
   "A.M. in Piano Performance", "2014-2017", "Grand Rapids Community College", "Grand Rapids, Michigan",
-  "B.S. in Computer Science", "2018-2021", "Grand Valley State University", "Allendale, Michigan"
+  "B.S. in Computer Science  -  GPA: 3.67", "2018-2021", "Grand Valley State University", "Allendale, Michigan"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 ```
@@ -92,9 +92,8 @@ tribble(
 
 ## REST API
 
-- Built a front-end client for searching the International Games Database
-- Functionality includes: searching the database, selecting a search result, and navigating available selection information
-- Client automatically re-queries the API if redirect information is returned
+- Built a front-end client for searching and navigating the International Games Database
+
 
 ```{R para}
 #stuff like React and whatnot, leaving for parameterization down the road
@@ -112,7 +111,7 @@ Bonefish Grill, Grand Rapids, MI — Inventory Manager • *February 2016 - Augu
 
 ## *References available upon Request*
 
-*This resume is kept updated on github [here](https://github.com/GriffinGoing/Griffin-Going-Resume/blob/master/GriffinGoingResume.pdf).*
+*This resume is kept updated on github [here](https://raw.githubusercontent.com/GriffinGoing/Griffin-Going-Resume/master/GriffinGoingResume.pdf).*
 
 # Awards
 
