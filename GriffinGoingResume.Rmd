@@ -120,8 +120,7 @@ Bonefish Grill, Grand Rapids, MI — Inventory Manager • *February 2016 - Augu
 # keeping in the template in case I win anything *shrugs*
 tribble(
   ~Year, ~Type, ~Desc,
-  1903, "Physics", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
-  1911, "Chemistry", "Awarded for the discovery of radium and polonium"
+  2019, "Mathematics", "SIMIODE",
 ) %>% 
   brief_entries(
     glue::glue("Nobel Prize in {Type}"),
