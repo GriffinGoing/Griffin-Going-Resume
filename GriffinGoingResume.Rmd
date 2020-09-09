@@ -10,7 +10,7 @@ email: "GriffinGoing@gmail.com"
 github: GriffinGoing
 linkedin: GriffinGoing
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "While studying music as a college undergraduate, I took an introductory computer programming course that opened me up to a whole new world for which I have the greatest passion. Since then, I have been vigorously pursing computer science as a full-time career, taking in every morsel of knowledge I find along the way. Keeping busy with both coursework and passion projects, I've made computer science both my professional mission, and my personal hobby. "
+aboutme: "While studying music as a college undergraduate, I took an introductory computer programming course which opened me up to a whole new world. A strong self starter, I dove in and began pursuing computer science as a full-time career. I love the ongoing challenge to learn that a career in CS demands, and I am eager to continue my journey. "
 output: vitae::twentyseconds
 ---
 
@@ -88,7 +88,7 @@ tribble(
 ## React
 
 - Built a location-based weather service **React** app using the **Bootstrap** library
-- Primarily used collaborative information from both coordinate-based and the *National Weather Service* **REST APIs**
+- Primarily used collaborative information from the *National Weather Service* API
 
 ## REST API
 
@@ -112,7 +112,7 @@ Bonefish Grill, Grand Rapids, MI — Inventory Manager • *February 2016 - Augu
 
 ## *References available upon Request*
 
-## *This resume is kept updated on github [here](*
+*This resume is kept updated on github [here](https://github.com/GriffinGoing/Griffin-Going-Resume/blob/master/GriffinGoingResume.pdf).*
 
 # Awards
 
