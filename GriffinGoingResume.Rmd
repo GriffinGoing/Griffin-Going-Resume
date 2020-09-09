@@ -1,0 +1,148 @@
+---
+name: Griffin
+surname: Going
+position: "Student"
+address: "4472 Bonanza Dr NE - Grand Rapids, MI"
+phone: +1 (616) 516-4145
+profilepic: GriffinGoing.jpg
+www: 
+email: "GriffinGoing@gmail.com"
+github: GriffinGoing
+linkedin: GriffinGoing
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "While studying music as a college undergraduate, I took an introductory computer programming course that opened me up to a whole new world for which I have the greatest passion. Since then, I have been vigorously pursing computer science as a full-time career, taking in every morsel of knowledge I find along the way. Keeping busy with both coursework and passion projects, I've made computer science both my professional mission, and my personal hobby. "
+output: vitae::twentyseconds
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tidyverse)
+```
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "A.M. in Piano Performance", "2014-2017", "Grand Rapids Community College", "Grand Rapids, Michigan",
+  "B.S. in Computer Science", "2018-2021", "Grand Valley State University", "Allendale, Michigan"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Projects
+
+## NaviGatr In-Building Mapping Application 
+
+ * Designed and created (with a team) an app for navigating inside buildings via Dijkstra's Algorithm
+ * Enabled easy navigation between rooms with visual and written directions 
+ * Companion app enabled the creation of maps over any image or floor plan
+ 
+## Conversion of Music to Haptic Vibrations on a Worn Device 
+ * Working to compress wave frequency up to 20,000 Hz to a 500 Hz range 
+ * New waves sent in haptic form to a wearable device 
+ * This method allows those with hearing loss experience music in a new way 
+
+# Languages
+
+```{r language-experience, fig.align='left', fig.width=5.25, fig.height=3.5}
+# Scale - some exp, exp, lots of exp 
+level_descriptors <- tribble(
+  ~ Level, ~ Experience,
+  1, "A Little Experience",
+  2, "Moderate Experience",
+  3, "Significant Experience"
+)
+
+# The 'ol inpsired join
+tribble(
+  ~ Language, ~ Level,
+  "R", 2,
+  "NodeJS", 1,
+  "Python", 3,
+  "Java", 3,
+  "C", 2,
+  "SQL", 1,
+  "C++", 2
+) %>%
+  left_join(level_descriptors, by = "Level") %>%
+  ggplot(mapping = aes(x = Language, y = Experience, fill = Language)) +
+  geom_col() +
+  theme_minimal() +
+  labs(
+    x = "",
+    y = "",
+    caption = ""
+  ) +
+  theme(
+    legend.position = "none",
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor = element_blank()
+    )
+```
+
+# Design Principles and Libraries
+
+## React
+
+- Built a location-based weather service **React** app using the **Bootstrap** library
+- Primarily used collaborative information from both coordinate-based and the *National Weather Service* **REST APIs**
+
+## REST API
+
+- Built a front-end client for searching the International Games Database
+- Functionality includes: searching the database, selecting a search result, and navigating available selection information
+- Client automatically re-queries the API if redirect information is returned
+
+```{R para}
+#stuff like React and whatnot, leaving for parameterization down the road
+```
+
+# Work Experience
+
+Bonefish Grill, Grand Rapids, MI — Inventory Manager • *February 2016 - August 2020*
+
+ - Oversaw the successful implementation of a new digital payment system
+ - Optimized inventory tracking/ordering process to save both time and money 
+ - Modified computer workflow assets/processes to increase productivity 
+  
+&nbsp;
+
+## *References available upon Request*
+
+## *This resume is kept updated on github [here](*
+
+# Awards
+
+```{r, eval=FALSE}
+# keeping in the template in case I win anything *shrugs*
+tribble(
+  ~Year, ~Type, ~Desc,
+  1903, "Physics", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
+  1911, "Chemistry", "Awarded for the discovery of radium and polonium"
+) %>% 
+  brief_entries(
+    glue::glue("Nobel Prize in {Type}"),
+    Year, 
+    Desc
+  )
+```
+
+
+```{r, eval=FALSE}
+# keeping in case I write anything like, 10-20 years from now
+library(dplyr)
+scholar::get_publications("EmD_lTEAAAAJ&EmD_lTEAAAAJ&") %>% 
+  filter(cites > 30) %>% 
+  distinct(title, .keep_all = TRUE) %>%
+  transmute(bibtype = "Article", author = as.character(author),
+            title = as.character(title),
+            journaltitle = as.character(journal), year, key = row_number()) %>% 
+  RefManageR::as.BibEntry() %>% 
+  RefManageR::WriteBib("curie.bib")
+
+bibliography_entries("curie.bib")
+```
+
