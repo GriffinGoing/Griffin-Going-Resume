@@ -4,7 +4,7 @@ surname: Going
 position: "Student"
 address: "4472 Bonanza Dr NE - Grand Rapids, MI"
 phone: +1 (616) 516-4145
-profilepic: GriffinGoing.jpg
+profilepic: images/GriffinGoing.jpg
 www: 
 email: "GriffinGoing@gmail.com"
 github: GriffinGoing
