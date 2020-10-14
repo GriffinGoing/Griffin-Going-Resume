@@ -101,12 +101,13 @@ tribble(
 
 # Work Experience
 
-Bonefish Grill, Grand Rapids, MI — Inventory Manager • *February 2016 - August 2020*
+Applied Computing Institute — Software Developer • *September 2020 - Current*
 
- - Oversaw the successful implementation of a new digital payment system
- - Optimized inventory tracking/ordering process to save both time and money 
- - Modified computer workflow assets/processes to increase productivity 
-  
+ - Performing research on the application of MFCC techniques to specific audio-classifying ML algorithms
+ - Working on a small team performing both front-end and back-end design and development
+
+Bonefish Grill — Inventory Manager • *February 2016 - August 2020*
+
 &nbsp;
 
 ## *References available upon Request*
