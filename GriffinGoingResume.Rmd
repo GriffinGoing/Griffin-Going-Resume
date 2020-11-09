@@ -2,10 +2,10 @@
 name: Griffin
 surname: Going
 position: "Student"
-address: "4472 Bonanza Dr NE - Grand Rapids, MI"
+address: "Grand Rapids, MI"
 phone: +1 (616) 516-4145
 profilepic: images/GriffinGoing.jpg
-www: 
+www: Coming Soon!
 email: "GriffinGoing@gmail.com"
 github: GriffinGoing
 linkedin: GriffinGoing
@@ -34,7 +34,7 @@ tribble(
 
 # Projects
 
-## NaviGatr In-Building Mapping Application 
+## In-Building Mapping/Navigation Application 
 
  * Designed and created (with a team) an app for navigating inside buildings via Dijkstra's Algorithm
  * Enabled easy navigation between rooms with visual and written directions 
@@ -44,10 +44,16 @@ tribble(
  * Working to compress wave frequency up to 20,000 Hz to a 500 Hz range 
  * New waves sent in haptic form to a wearable device 
  * This method allows those with hearing loss experience music in a new way 
+ 
+## Mel Frequency Cepstrum Coefficients Dashboard
+ * Built an online dashboard for extracting and analyzing MFCC features from .wav files
+ * Offers interactive plot manipulation and visualization options
+ * Allows users to see features relevant to audio training algorithms in direct juxtaposition
+
 
 # Languages
 
-```{r language-experience, fig.align='left', fig.width=5.25, fig.height=3.5}
+```{r language-experience, fig.align='left', fig.width=5.25, fig.height=2.75}
 # Scale - some exp, exp, lots of exp 
 level_descriptors <- tribble(
   ~ Level, ~ Experience,
@@ -64,7 +70,7 @@ tribble(
   "Python", 3,
   "Java", 3,
   "C", 2,
-  "SQL", 1,
+  #"SQL", 1,
   "C++", 2
 ) %>%
   left_join(level_descriptors, by = "Level") %>%
@@ -85,15 +91,9 @@ tribble(
 
 # Design Principles and Libraries
 
-## React
-
-- Built a location-based weather service **React** app using the **Bootstrap** library
-- Primarily used collaborative information from the *National Weather Service* API
-
-## REST API
-
-- Built a front-end client for searching and navigating the International Games Database
-
+* **React**
+* **Bootstrap / JSX**
+* **REST API**
 
 ```{R para}
 #stuff like React and whatnot, leaving for parameterization down the road
@@ -114,9 +114,12 @@ Bonefish Grill — Inventory Manager • *February 2016 - August 2020*
 
 *This resume is kept updated on github [here](https://raw.githubusercontent.com/GriffinGoing/Griffin-Going-Resume/master/GriffinGoingResume.pdf).*
 
-# Awards
+*Due to its parameterized format, this resume is updated often. If hyperlinks are unavailable in the current PDF viewer due to deprecation, please don't hesitate to visit my Github page for a current version of this resume, or to reach out with any questions. I welcome inquiry into my current passion projects and the research therein.*
+
 
 ```{r, eval=FALSE}
+# Awards
+
 # keeping in the template in case I win anything *shrugs*
 tribble(
   ~Year, ~Type, ~Desc,
