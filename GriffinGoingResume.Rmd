@@ -134,7 +134,7 @@ tribble(
 
 
 ```{r, eval=FALSE}
-# keeping in case I write anything like, 10-20 years from now
+# keeping in case I write anything that gets published
 library(dplyr)
 scholar::get_publications("EmD_lTEAAAAJ&EmD_lTEAAAAJ&") %>% 
   filter(cites > 30) %>% 
