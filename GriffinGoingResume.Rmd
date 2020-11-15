@@ -10,7 +10,7 @@ email: "GriffinGoing@gmail.com"
 github: GriffinGoing
 linkedin: GriffinGoing
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "While studying music as a college undergraduate, I took an introductory computer programming course which opened me up to a whole new world. A strong self starter, I dove in and began pursuing computer science as a full-time career. I love the ongoing challenge to learn that a career in CS demands, and I am eager to continue my journey. "
+aboutme: "While studying music as a college undergraduate, I took an introductory computer programming course and was immeditaely captivated. A strong self starter, I dove in and began pursuing computer science as a full-time career. I love the ongoing challenge to learn that a career in CS demands, and I am eager to continue my journey. "
 output: vitae::twentyseconds
 ---
 
@@ -34,11 +34,11 @@ tribble(
 
 # Projects
 
-## In-Building Mapping/Navigation Application 
+## Easy Engine - Python Game Engine
 
- * Designed and created (with a team) an app for navigating inside buildings via Dijkstra's Algorithm
- * Enabled easy navigation between rooms with visual and written directions 
- * Companion app enabled the creation of maps over any image or floor plan
+ * Extends the pygame library to provide easy access to features commonly required by games
+ * Requires minimal input from the user, and formats input to spec internally
+ * Uses verbose in-process benchmarking for accurate timing across machines.
  
 ## Conversion of Music to Haptic Vibrations on a Worn Device 
  * Working to compress wave frequency up to 20,000 Hz to a 500 Hz range 
