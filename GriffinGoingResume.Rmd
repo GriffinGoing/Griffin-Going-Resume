@@ -48,7 +48,7 @@ tribble(
 ## Mel Frequency Cepstrum Coefficients Dashboard
  * Built an online dashboard for extracting and analyzing MFCC features from .wav files
  * Offers interactive plot manipulation and visualization options
- * Allows users to see features relevant to audio training algorithms in direct juxtaposition
+ * Allows users to see extracted features relevant to audio training algorithms in direct juxtaposition
 
 
 # Languages
@@ -104,7 +104,7 @@ tribble(
 Applied Computing Institute — Software Developer • *September 2020 - Current*
 
  - Performing research on the application of MFCC techniques to specific audio-classifying ML algorithms
- - Working on a small team performing both front-end and back-end design and development
+ - Working on a small team to develop an audio analysis software suite
 
 Bonefish Grill — Inventory Manager • *February 2016 - August 2020*
 
@@ -112,9 +112,9 @@ Bonefish Grill — Inventory Manager • *February 2016 - August 2020*
 
 ## *References available upon Request*
 
-*This resume is kept updated on github [here](https://raw.githubusercontent.com/GriffinGoing/Griffin-Going-Resume/master/GriffinGoingResume.pdf).*
+*This resume is kept updated on github [here](https://raw.githubusercontent.com/GriffinGoing/Griffin-Going-Resume/master/GriffinGoingResume.pdf).* *
 
-*Due to its parameterized format, this resume is updated often. If hyperlinks are unavailable in the current PDF viewer due to deprecation, please don't hesitate to visit my Github page for a current version of this resume, or to reach out with any questions. I welcome inquiry into my current passion projects and the research therein.*
+* *Due to its parameterized format, this resume is updated automatically. If hyperlinks are unavailable in the current PDF viewer due to deprecation, please don't hesitate to visit my Github page for a current version of this resume, or to reach out with any questions. I welcome inquiry into my current passion projects and the research therein.*
 
 
 ```{r, eval=FALSE}
