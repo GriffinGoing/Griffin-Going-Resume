@@ -26,8 +26,8 @@ library(tidyverse)
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "A.M. in Piano Performance", "2014-2017", "Grand Rapids Community College", "Grand Rapids, Michigan",
-  "B.S. in Computer Science  -  GPA: 3.67", "2018-2021", "Grand Valley State University", "Allendale, Michigan"
+  "B.S. in Computer Science  -  GPA: 3.7", "2018-2021", "Grand Valley State University", "Allendale, Michigan",
+  "A.M. in Piano Performance", "2014-2017", "Grand Rapids Community College", "Grand Rapids, Michigan"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 ```
