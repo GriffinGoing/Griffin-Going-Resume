@@ -1,7 +1,7 @@
 ---
 name: Griffin
 surname: Going
-position: "Student"
+position: "Software Developer"
 address: "Grand Rapids, MI"
 phone: +1 (616) 516-4145
 profilepic: images/GriffinGoing.jpg
@@ -36,24 +36,24 @@ tribble(
 
 ## Easy Engine - Python Game Engine
 
- * Extends the pygame library to provide easy access to features commonly required by games
+ * Extends the `pygame` library to provide easy access to features commonly required by games
  * Requires minimal input from the user, and formats input to spec internally
- * Uses verbose in-process benchmarking for accurate timing across machines.
+ * Uses verbose in-process benchmarking for accurate timing across machines and environments.
  
 ## Conversion of Music to Haptic Vibrations on a Worn Device 
  * Working to compress wave frequency up to 20,000 Hz to a 500 Hz range 
  * New waves sent in haptic form to a wearable device 
- * This method allows those with hearing loss experience music in a new way 
+ * Allows those with hearing loss experience music in a new way based on research contrasting neural touch receptor and auditory sensor responses.
  
 ## Mel Frequency Cepstrum Coefficients Dashboard
  * Built an online dashboard for extracting and analyzing MFCC features from .wav files
  * Offers interactive plot manipulation and visualization options
- * Allows users to see extracted features relevant to audio training algorithms in direct juxtaposition
+ * Allows users to see extracted features relevant to audio training algorithms in direct juxtaposition, or by individual datasets.
 
 
 # Languages
 
-```{r language-experience, fig.align='left', fig.width=5.25, fig.height=2.75}
+```{r language-experience, fig.align='left', fig.width=5.25, fig.height=1.5}
 # Scale - some exp, exp, lots of exp 
 level_descriptors <- tribble(
   ~ Level, ~ Experience,
@@ -62,17 +62,20 @@ level_descriptors <- tribble(
   3, "Significant Experience"
 )
 
-# The 'ol inpsired join
+# The 'ol inspired join
 tribble(
   ~ Language, ~ Level,
-  "R", 2,
-  "NodeJS", 1,
+  "R", 3,
+  "NodeJS", 2,
   "Python", 3,
   "Java", 3,
   "C", 2,
   #"SQL", 1,
-  "C++", 2
+  "C++", 1
 ) %>%
+  mutate(
+    Language = factor(Language, levels=c("C++", "C", "NodeJS", "Java", "Python", "R"))
+  ) %>%
   left_join(level_descriptors, by = "Level") %>%
   ggplot(mapping = aes(x = Language, y = Experience, fill = Language)) +
   geom_col() +
@@ -89,26 +92,20 @@ tribble(
     )
 ```
 
-# Design Principles and Libraries
-
-* **React**
-* **Bootstrap / JSX**
-* **REST API**
-
 ```{R para}
 #stuff like React and whatnot, leaving for parameterization down the road
 ```
 
 # Work Experience
 
-Applied Computing Institute — Software Developer • *September 2020 - Current*
+Applied Computing Institute — Software Developer • *August 2020 - Current*
 
- - Performing research on the application of MFCC techniques to specific audio-classifying ML algorithms
- - Working on a small team to develop an audio analysis software suite
+ - Performing research on the application of MFCC audio feature extraction techniques to specific audio-classifying ML algorithms. Example questions include: how much water is being used within a given audio clip based on the sounds of the running water? If someone is brushing their teeth, which region of their mouth are they brushing, and by what metrics can MFCCs confirm this?
+ - Developing mobile solutions for data collection and classification via React and Core ML. These solutions are meant to be attractive and easy-to-use for all users, increasing both the accuracy of the data, and the amount gathered.
+ - Building browser-based solutions via React with an emphasis on end-user ease-of-use and clearly defined classification of qualitative data.
+ - Implementing these models in mobile applications (via Swift) designed to give users feedback on such nuances as oral hygiene, excess water use, and more. 
 
 Bonefish Grill — Inventory Manager • *February 2016 - August 2020*
-
-&nbsp;
 
 ## *References available upon Request*
 
