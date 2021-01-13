@@ -38,8 +38,8 @@ tribble(
 
 ## Tractor Supply Company Order Portal
 
-- Uses React, a custom NodeJS/REST API, and MySQL for a strong, robust, and scalable architecture
-- Has an additional component in a Database Manager React app
+- Uses **React**, a custom **NodeJS/REST API**, and **MySQL** for a strong, robust, and scalable architecture
+- Has an additional component in a Database Manager **React** app
 - Orders are pushed into an Order Queue for the vendor, saving man-hours and labor and speeding up the purchase order and shipping process start to finish.
 - Complete suite of functions for both the vendor and client, including ordering, product/user addition, deletion, the ability to set products out of stock, and more. 
  
@@ -104,9 +104,9 @@ tribble(
 Applied Computing Institute — Software Developer • *August 2020 - Current*
 
  - Performing research on the application of MFCC audio feature extraction techniques to specific audio-classifying ML algorithms. Example questions include: how much water is being used within a given audio clip based on the sounds of the running water? If someone is brushing their teeth, which region of their mouth are they brushing, and by what metrics can MFCCs confirm this?
- - Developing mobile solutions for data collection and classification via React and Core ML meant to be attractive and easy-to-use for all users, increasing both the accuracy of the data, and the amount gathered.
- - Building browser-based solutions via React with an emphasis on end-user ease-of-use and clearly defined classification of qualitative data.
- - Implementing these models in mobile applications (via Swift) designed to give users feedback on such nuances as oral hygiene, excess water use, and more. 
+ - Developing mobile solutions for data collection and classification via **React** and **Core ML** meant to be attractive and easy-to-use for all users, increasing both the accuracy of the data, and the amount gathered.
+ - Building browser-based solutions via **React**, **Google Firebase**, and **NodeJS**.
+ - Implementing these models in mobile applications (via **Swift**) designed to give users feedback on such nuances as oral hygiene, excess water use, and more. 
 
 Bonefish Grill — Inventory Manager • *February 2016 - August 2020*
 
