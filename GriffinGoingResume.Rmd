@@ -26,6 +26,7 @@ library(tidyverse)
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "M.S. in Applied Computer Science", "Fall 2021 - ", "Grand Valley State University", "Allendale, Michigan",
   "B.S. in Computer Science  -  GPA: 3.7", "2018-2021", "Grand Valley State University", "Allendale, Michigan",
   "A.M. in Piano Performance", "2014-2017", "Grand Rapids Community College", "Grand Rapids, Michigan"
 ) %>% 
@@ -35,13 +36,6 @@ tribble(
 # Projects
 
 ## Easy Engine - Python Game Engine
-
-## Tractor Supply Company Order Portal
-
-- Uses **React**, a custom **NodeJS/REST API**, and **MySQL** for a strong, robust, and scalable architecture
-- Has an additional component in a Database Manager **React** app
-- Orders are pushed into an Order Queue for the vendor, saving man-hours and labor and speeding up the purchase order and shipping process start to finish.
-- Complete suite of functions for both the vendor and client, including ordering, product/user addition, deletion, the ability to set products out of stock, and more. 
  
 ## Conversion of Music to Haptic Vibrations on a Worn Device 
  * Working to compress wave frequency up to 20,000 Hz to a 500 Hz range 
@@ -49,10 +43,15 @@ tribble(
  * Allows those with hearing loss experience music in a new way based on research contrasting neural touch receptor and auditory sensor responses
  
 ## Mel Frequency Cepstrum Coefficients Dashboard
- * Built an online dashboard for extracting and analyzing MFCC features from .wav files
+ * Built an online dashboard for extracting and analyzing MFCC features from .wav files using statistical programming
  * Offers interactive plot manipulation and visualization options
  * Allows users to see extracted features relevant to audio training algorithms in direct juxtaposition, or by individual datasets
 
+## Tractor Supply Company Order Portal
+
+- Uses **React**, a custom **NodeJS/REST API**, and **MySQL** for a strong, robust, and scalable architecture
+- Orders are pushed into an Order Queue for the vendor, saving man-hours and labor and speeding up the purchase order and shipping process start to finish.
+- Complete suite of functions for both the vendor and client, including ordering, product/user addition, deletion, the ability to set products out of stock, and more. 
 
 # Languages
 
@@ -101,14 +100,14 @@ tribble(
 
 # Work Experience
 
-Applied Computing Institute — Software Developer • *August 2020 - Current*
+Applied Computing Institute - ML Software Developer • *August 2020 - Current*
 
- - Performing research on the application of MFCC audio feature extraction techniques to specific audio-classifying ML algorithms. Example questions include: how much water is being used within a given audio clip based on the sounds of the running water? If someone is brushing their teeth, which region of their mouth are they brushing, and by what metrics can MFCCs confirm this?
- - Developing mobile solutions for data collection and classification via **React** and **Core ML** meant to be attractive and easy-to-use for all users, increasing both the accuracy of the data, and the amount gathered.
+ - Performing research on the application of MFCC audio feature extraction techniques to specific audio-classifying machine learning algorithms. Example questions include: how much water is being used within a given audio clip based on the sounds of the running water? If someone is brushing their teeth, which region of their mouth are they brushing, and by what metrics can MFCCs confirm this?
+ - Developing mobile solutions for data collection and classification via **React** and **CoreML** meant to be attractive and easy-to-use for all users, increasing both the accuracy of the data, and the amount gathered.
  - Building browser-based solutions via **React**, **Google Firebase**, and **NodeJS**.
  - Implementing these models in mobile applications (via **Swift**) designed to give users feedback on such nuances as oral hygiene, excess water use, and more. 
 
-Bonefish Grill — Inventory Manager • *February 2016 - August 2020*
+Bonefish Grill - Inventory Manager • *February 2016 - August 2020*
 
 ## *References available upon Request*
 
